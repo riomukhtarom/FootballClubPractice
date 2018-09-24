@@ -13,7 +13,7 @@ import com.gdk.rio.footballclubpractice.model.Team
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.*
 
-class MainAdapter (private val teams: List<Team>) : RecyclerView.Adapter<MainAdapter.TeamViewHolder>() {
+class TeamsAdapter (private val teams: List<Team>) : RecyclerView.Adapter<TeamsAdapter.TeamViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TeamViewHolder {
         return TeamViewHolder(TeamUI().createView(AnkoContext.create(parent.context, parent)))
     }
