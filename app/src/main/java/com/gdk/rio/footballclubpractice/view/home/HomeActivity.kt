@@ -1,12 +1,10 @@
-package com.gdk.rio.footballclubpractice.view
+package com.gdk.rio.footballclubpractice.view.home
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.gdk.rio.footballclubpractice.FavoriteTeamsFragment
+import android.support.v7.app.AppCompatActivity
 import com.gdk.rio.footballclubpractice.R
 import com.gdk.rio.footballclubpractice.R.id.favorites
 import com.gdk.rio.footballclubpractice.R.id.teams
-import com.gdk.rio.footballclubpractice.TeamsFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {

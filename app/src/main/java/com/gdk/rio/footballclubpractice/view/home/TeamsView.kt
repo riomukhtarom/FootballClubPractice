@@ -1,4 +1,4 @@
-package com.gdk.rio.footballclubpractice.view
+package com.gdk.rio.footballclubpractice.view.home
 
 import com.gdk.rio.footballclubpractice.model.Team
 

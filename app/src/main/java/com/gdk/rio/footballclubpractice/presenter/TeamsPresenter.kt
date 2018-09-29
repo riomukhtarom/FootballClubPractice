@@ -1,7 +1,7 @@
 package com.gdk.rio.footballclubpractice.presenter
 
 import com.gdk.rio.footballclubpractice.api.ApiRepository
-import com.gdk.rio.footballclubpractice.view.TeamsView
+import com.gdk.rio.footballclubpractice.view.home.TeamsView
 import com.gdk.rio.footballclubpractice.api.TheSportDBApi
 import com.gdk.rio.footballclubpractice.model.TeamResponse
 import com.google.gson.Gson
